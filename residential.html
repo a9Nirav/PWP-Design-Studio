@@ -422,7 +422,7 @@
                 const anchor = document.createElement('a');
                 anchor.href = imagePath;
                 anchor.setAttribute('data-lightbox', 'masonry-gallery');
-                anchor.innerHTML = `<img src="${imagePath}" alt="Residential ${imgNum}" loading="lazy"> onerror="this.style.display='none'"`;
+                anchor.innerHTML = `<img src="${imagePath}"  onerror="this.style.display='none'" alt="Residential ${imgNum}" loading="lazy">`;
 
                 galleryContainer.appendChild(anchor);
             }
